@@ -78,6 +78,11 @@ body {
 .input-email{
     margin-bottom: 22px;
 }
+.input-names,
+.input-correos,
+.input-passwords{
+    margin-bottom: 22px;
+}
 .primary-button {
     background-color: var(--hospital-green);
     border-radius: 8px;
@@ -141,8 +146,8 @@ body {
     margin-bottom: 54px;
 }
 .myAccount{
-    text-align: justify;
-    margin-bottom: 32px;
+    text-align: start;
+    margin-bottom: 48px;
 }
 
 /* ******Media Queries******* */
@@ -150,12 +155,7 @@ body {
     .logo {
         display: block;
     }
-    .secondary-button{
-        position: absolute;
-        bottom: 0;
-        width: 300px;
-        margin-bottom: 24px;
-    }
+    .secondary-button,
     .save-button{
         position: absolute;
         bottom: 0;
