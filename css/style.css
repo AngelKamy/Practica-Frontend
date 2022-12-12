@@ -24,6 +24,9 @@ body{
     grid-template-rows: auto 1fr auto;
     width: 300px;
 }
+.email-container{
+    justify-items: center;
+}
 .logo{
     width: 150px;
     margin-bottom: 48px;
@@ -76,6 +79,31 @@ body{
     margin-top: 14px;
     margin-bottom: 30px;
 }
+.email-image{
+    width: 132px;
+    height: 132px;
+    border-radius: 50%;
+    background-color: var(--text-input-field);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.email-image img{
+    width: 80px;
+}
+.resend{
+    font-size: var(--sm);
+}
+.resend span{
+    color: var(--very-light-pink);
+}
+.resend a{
+    color: var(--hospital-green);
+    text-decoration: none;
+}
+
+/* ******Media Queries******* */
 @media (max-width: 640px){
     .logo{
         display:block;
