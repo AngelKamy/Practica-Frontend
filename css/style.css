@@ -140,6 +140,10 @@ body {
     text-decoration: none;
     margin-bottom: 54px;
 }
+.myAccount{
+    text-align: justify;
+    margin-bottom: 32px;
+}
 
 /* ******Media Queries******* */
 @media (max-width: 640px) {
@@ -147,6 +151,12 @@ body {
         display: block;
     }
     .secondary-button{
+        position: absolute;
+        bottom: 0;
+        width: 300px;
+        margin-bottom: 24px;
+    }
+    .save-button{
         position: absolute;
         bottom: 0;
         width: 300px;
