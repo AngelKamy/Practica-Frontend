@@ -409,6 +409,42 @@ body {
     font-weight: bold;
 }
 
+.menu{
+    display: none;
+    
+}
+.logo-nav{
+    width: 100px;
+}
+.navbar-left ul,
+.navbar-right ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+}
+.navb{
+    display: flex;
+}
+.navbar-left{
+    display: flex ;
+}
+.navbar-left ul li a,
+.navbar-right ul li a{
+    text-decoration: none;
+    color: var(--very-light-pink);
+    border: 1px solid var(--white);
+    padding: 8px;
+    border-radius: 8px;
+}
+.navbar-left ul li a:hover,
+.navbar-right ul li a:hover{
+    border: 1px solid var(--hospital-green);  
+    color: var(--hospital-green); 
+
+}
+
 /* ******Media Queries******* */
 @media (max-width: 640px) {
     .logo {
